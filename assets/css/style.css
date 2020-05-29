@@ -1,0 +1,30 @@
+.lockbox .inside {
+    padding-bottom: 0;
+}
+
+.lockbox .locks {
+    padding: 1em 2.5em;
+    list-style-type: disc;
+}
+
+.lockbox .locks li {
+    margin-bottom: 1em;
+}
+
+.lockbox .locks li:last-child {
+    margin-bottom: 0;
+}
+
+.lockbox .locks i {
+	opacity: .5;
+	margin-left: .2em;
+}
+
+.locks .spinner {
+    float: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1.3em;
+    opacity: 1;
+}
