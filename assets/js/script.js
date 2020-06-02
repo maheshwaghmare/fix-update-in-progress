@@ -133,7 +133,7 @@ var FixUpdateInProcessAjaxQueue = (function() {
 						action  : 'fix-update-in-process-release-locks',
 						lock_key : lock_key,
 						_ajax_nonce: FixUpdateInProcessVars._ajax_nonce,
-					}
+					},
 					success: function( response ){
 						spinner.removeClass('is-active');
 

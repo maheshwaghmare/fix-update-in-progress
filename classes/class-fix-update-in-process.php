@@ -182,6 +182,7 @@ if ( ! class_exists( 'Fix_Update_In_Process' ) ) :
 										<ul class="locks">
 											<?php
 											foreach ( $locks as $lock_key => $lock ) {
+												$time = time() - (int) $lock['status'];
 												?>
 												<li class="lock" data-lock-key="<?php echo esc_attr( $lock_key ); ?>">
 													<span class="spinner"></span>
@@ -192,7 +193,7 @@ if ( ! class_exists( 'Fix_Update_In_Process' ) ) :
 														<span class="description"><i class="dashicons dashicons-lock"></i> 
 														<?php
 														/* translators: %s is the lock release time. */
-														printf( esc_html__( 'Lock auto release after %s', 'fix-update-in-process' ), esc_html( human_time_diff( $lock['status'] ) ) );
+														printf( esc_html__( 'Lock auto release after %s', 'fix-update-in-process' ), esc_html( human_time_diff( $time ) ) );
 														?>
 														.</span>
 													<?php } ?>

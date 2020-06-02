@@ -1,4 +1,4 @@
-=== Fix Update in Process ===
+=== Fix Another update is currently in progress ===
 Contributors: Mahesh901122
 Tags: fix, update, issue
 Donate link: https://www.paypal.me/mwaghmare7/
