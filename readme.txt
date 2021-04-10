@@ -1,9 +1,9 @@
 === Fix Another update is currently in progress ===
 Contributors: Mahesh901122
-Tags: fix, update, issue
+Tags: update in process, update in progress
 Donate link: https://www.paypal.me/mwaghmare7/
-Tested up to: 5.4
-Stable tag: 1.0.0
+Tested up to: 5.7
+Stable tag: 1.0.1
 Requires at least: 4.4
 Requires PHP: 7.0
 License: GPLv2 or later
@@ -22,6 +22,10 @@ Zero configuration. One click fix "Another update is currently in progress." whi
 3. Click on `Release All Locks`.
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Improvement - Compatibility to WordPress 5.7.
 
 = 1.0.0 =
 * Initial release.
